@@ -1,0 +1,28 @@
+.fond{
+    background-color: #4d004d;
+    font-family: space mono;
+}
+.test1{
+    font-size: 40px;
+    color: white;
+    background-color: #cc0000;
+    display: block;
+    position: absolute;
+}
+.test{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.carte{
+    display: inline-flex;
+    margin-top: 5em;
+    margin-left: 30em;
+}
+.carte1{
+    display: inline-flex;
+    margin-top: 1em;
+    margin-left: 30em;
+}
+.card{
+    margin-right: 1em;
+}
