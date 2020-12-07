@@ -5,7 +5,7 @@
 .test1{
     font-size: 40px;
     color: white;
-    background-color: #cc0000;
+    background-color: #ff3333;
     display: block;
     position: absolute;
 }
@@ -25,4 +25,7 @@
 }
 .card{
     margin-right: 1em;
+}
+.card-body{
+    background-color: #ff3333;
 }

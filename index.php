@@ -14,30 +14,30 @@
     </div>
     <div class="carte">
         <div class="card" style="width: 20rem;">
-            <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.png" class="card-img-top"
+            <img src="img/201812_Perreault.jpg" class="card-img-top"
                  alt="Accroche HTML">
             <div class="card-body">
-                <h2 class="card-title">Titre</h2>
+                <h2 class="card-title">Evénement 1</h2>
                 <h3 class="card-subtitle">Sous titre</h3>
                 <p class="card-text">Du texte sous le titre dans le corps de carte</p>
                 <a href="#" class="btn btn-primary">Un lien</a>
             </div>
         </div>
         <div class="card" style="width: 20rem;">
-            <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.png" class="card-img-top"
+            <img src="img/201812_Perreault.jpg" class="card-img-top"
                  alt="Accroche HTML">
             <div class="card-body">
-                <h2 class="card-title">Titre</h2>
+                <h2 class="card-title">Evénement 2</h2>
                 <h3 class="card-subtitle">Sous titre</h3>
                 <p class="card-text">Du texte sous le titre dans le corps de carte</p>
                 <a href="#" class="btn btn-primary">Un lien</a>
             </div>
         </div>
         <div class="card" style="width: 20rem;">
-            <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.png" class="card-img-top"
+            <img src="img/201812_Perreault.jpg" class="card-img-top"
                  alt="Accroche HTML">
             <div class="card-body">
-                <h2 class="card-title">Titre</h2>
+                <h2 class="card-title">Evénement 3</h2>
                 <h3 class="card-subtitle">Sous titre</h3>
                 <p class="card-text">Du texte sous le titre dans le corps de carte</p>
                 <a href="#" class="btn btn-primary">Un lien</a>
@@ -46,30 +46,30 @@
     </div>
     <div class="carte1">
         <div class="card" style="width: 20rem;">
-            <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.png" class="card-img-top"
+            <img src="img/201812_Perreault.jpg" class="card-img-top"
                  alt="Accroche HTML">
             <div class="card-body">
-                <h2 class="card-title">Titre</h2>
+                <h2 class="card-title">Evénement 4</h2>
                 <h3 class="card-subtitle">Sous titre</h3>
                 <p class="card-text">Du texte sous le titre dans le corps de carte</p>
                 <a href="#" class="btn btn-primary">Un lien</a>
             </div>
         </div>
         <div class="card" style="width: 20rem;">
-            <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.png" class="card-img-top"
+            <img src="img/201812_Perreault.jpg" class="card-img-top"
                  alt="Accroche HTML">
             <div class="card-body">
-                <h2 class="card-title">Titre</h2>
+                <h2 class="card-title">Evénement 5</h2>
                 <h3 class="card-subtitle">Sous titre</h3>
                 <p class="card-text">Du texte sous le titre dans le corps de carte</p>
                 <a href="#" class="btn btn-primary">Un lien</a>
             </div>
         </div>
         <div class="card" style="width: 20rem;">
-            <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.png" class="card-img-top"
+            <img src="img/201812_Perreault.jpg" class="card-img-top"
                  alt="Accroche HTML">
             <div class="card-body">
-                <h2 class="card-title">Titre</h2>
+                <h2 class="card-title">Evénement 6</h2>
                 <h3 class="card-subtitle">Sous titre</h3>
                 <p class="card-text">Du texte sous le titre dans le corps de carte</p>
                 <a href="#" class="btn btn-primary">Un lien</a>
