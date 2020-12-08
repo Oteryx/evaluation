@@ -15,8 +15,8 @@
     </div>
     <div class="carte">
         <div class="card" style="width: 20rem;">
-            <img src="img/201812_Perreault.jpg" class="card-img-top"
-                 alt="Accroche HTML">
+            <img src="https://images-ext-2.discordapp.net/external/PrU0PJS7G4SCn2hPV3JfK98XyvPjBbwirb2mjqvc4qM/%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D400%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjE0NTg5fQ/https/images.unsplash.com/photo-1579489225078-27977a77bf72?width=286&height=430" class="card-img-top"
+                 alt="Accroche HTML" style="height: 169px">
             <div class="tourne">
                 <div class="tournetext">La tête dans les étoiles</div>
             </div>
@@ -29,7 +29,7 @@
         </div>
         <div class="card" style="width: 20rem;">
             <img src="img/201812_Perreault.jpg" class="card-img-top"
-                 alt="Accroche HTML">
+                 alt="Accroche HTML" style="height: 169px">
             <div class="tourne">
                 <div class="tournetext">La tête dans les étoiles</div>
             </div>
@@ -43,7 +43,7 @@
         </div>
         <div class="card" style="width: 20rem;">
             <img src="img/201812_Perreault.jpg" class="card-img-top"
-                 alt="Accroche HTML">
+                 alt="Accroche HTML" style="height: 169px">
             <div class="tourne">
                 <div class="tournetext">La tête dans les étoiles</div>
             </div>
@@ -58,7 +58,7 @@
     <div class="carte1">
         <div class="card" style="width: 20rem;">
             <img src="img/201812_Perreault.jpg" class="card-img-top"
-                 alt="Accroche HTML">
+                 alt="Accroche HTML" style="height: 169px">
             <div class="tourne">
                 <div class="tournetext">La tête dans les étoiles</div>
             </div>
@@ -71,7 +71,7 @@
         </div>
         <div class="card" style="width: 20rem;">
             <img src="img/201812_Perreault.jpg" class="card-img-top"
-                 alt="Accroche HTML">
+                 alt="Accroche HTML" style="height: 169px">
             <div class="tourne">
                 <div class="tournetext">La tête dans les étoiles</div>
             </div>
@@ -84,7 +84,7 @@
         </div>
         <div class="card" style="width: 20rem;">
             <img src="img/201812_Perreault.jpg" class="card-img-top"
-                 alt="Accroche HTML">
+                 alt="Accroche HTML" style="height: 169px">
             <div class="tourne">
                 <div class="tournetext">La tête dans les étoiles</div>
             </div>
