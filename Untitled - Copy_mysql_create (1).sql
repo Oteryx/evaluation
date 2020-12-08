@@ -4,13 +4,15 @@ CREATE TABLE `utilisateurs` (
 	`mail` TEXT NOT NULL,
 	`mot de passe` TEXT NOT NULL,
 	`téléphone` TEXT NOT NULL,
-	`role` INT(1) NOT NULL
+	`role` INT(1) NOT NULL,
+	PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `lieux` (
 	`id` INT NOT NULL,
 	`nom` TEXT NOT NULL,
-	`adresse` TEXT NOT NULL
+	`adresse` TEXT NOT NULL,
+	PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `event` (
@@ -22,6 +24,9 @@ CREATE TABLE `event` (
 	`dateheure_fin` DATETIME NOT NULL,
 	`image` TEXT NOT NULL,
 	`nrb_place` INT NOT NULL,
-	`payement` INT(1) NOT NULL
+	`gratuit_statut` INT(1) NOT NULL,
+	PRIMARY KEY (`id`)
 );
+
+ALTER TABLE `lieux` ADD CONSTRAINT `lieux_fk0` FOREIGN KEY (`id`) REFERENCES `event`(`id_lieux`);
 
