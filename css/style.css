@@ -1,31 +1,86 @@
-.fond{
-    background-color: #4d004d;
-    font-family: space mono;
+.fond {
+    font-family: Space mono, cursive;
 }
-.test1{
+
+.test1 {
     font-size: 40px;
     color: white;
     background-color: #ff3333;
     display: block;
     position: absolute;
 }
-.test{
+
+.test {
     margin-left: 1em;
     margin-right: 1em;
 }
-.carte{
+
+.carte {
     display: inline-flex;
     margin-top: 5em;
     margin-left: 30em;
 }
-.carte1{
+
+.carte1 {
     display: inline-flex;
     margin-top: 1em;
     margin-left: 30em;
 }
-.card{
+
+.card {
     margin-right: 1em;
 }
-.card-body{
+
+.card-body {
     background-color: #ff3333;
+}
+
+.bouton {
+    margin-left: 12em;
+}
+
+.tourne {
+    background-color: white;
+    transform: rotate(-12deg);
+    position: absolute;
+    height: 30px;
+    width: 270px;
+    margin-top: 3em;
+    margin-left: 1px;
+    font-size: 20px;
+    color: red;
+}
+
+.tournetext {
+    margin-left: 1em;
+}
+.resume{
+    color: red;
+    position: absolute;
+    text-align: right;
+    margin-top: 6em;
+    margin-left: 9em;
+    font-weight: lighter;
+}
+.heure{
+    font-size: small;
+}
+.place{
+    font-size: 20px;
+    font-weight: bold;
+}
+.prix{
+    margin-left: 11em;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.description{
+    margin-top: 1em;
+}
+.complet{
+    margin-top: 3em;
+    margin-left: 2em;
+    font-weight: bold;
+    font-size: 20px;
 }
