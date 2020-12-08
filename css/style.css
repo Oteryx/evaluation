@@ -53,30 +53,33 @@
 
 .tournetext {
     margin-left: 1em;
+    font-size: 15px;
 }
 .resume{
     color: red;
     position: absolute;
     text-align: right;
-    margin-top: 6em;
-    margin-left: 9em;
+    margin-top: 8em;
+    margin-left: 13em;
     font-weight: lighter;
+    font-size: 12px;
 }
 .heure{
-    font-size: small;
+    font-size: 9px;
 }
 .place{
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bold;
 }
 .prix{
     margin-left: 11em;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
 }
 .description{
     margin-top: 1em;
+    font-size: 12px;
 }
 .complet{
     margin-top: 3em;
