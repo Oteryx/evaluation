@@ -24,7 +24,7 @@
             <div class="card-body">
                 <div class="prix">C'est gratuit !!!</div>
                 <div class="description"><p class="card-text">Du texte sous le titre dans le corps de carte bla blabla bla bla bla bla bla Du texte sous le titre dans le corps de carte bla blabla bla bla bla bla bla </p></div>
-                <div class="bouton"><a href="#" class="btn btn-primary">Un lien</a></div>
+                <div class="bouton">Je participe</div>
             </div>
         </div>
         <div class="card" style="width: 20rem;height:383px ">
@@ -51,7 +51,7 @@
             <div class="card-body">
                 <div class="prix">C'est gratuit !!!</div>
                 <div class="description"><p class="card-text">Du texte sous le titre dans le corps de carte bla blabla bla bla bla bla bla Du texte sous le titre dans le corps de carte bla blabla bla bla bla bla bla </p></div>
-                <div class="bouton"><a href="#" class="btn btn-primary">Un lien</a></div>
+                <div class="bouton">Je participe</div>
             </div>
         </div>
     </div>
@@ -66,7 +66,7 @@
             <div class="card-body">
                 <div class="prix">C'est gratuit !!!</div>
                 <div class="description"><p class="card-text">Du texte sous le titre dans le corps de carte bla blabla bla bla bla bla bla Du texte sous le titre dans le corps de carte bla blabla bla bla bla bla bla </p></div>
-                <div class="bouton"><a href="#" class="btn btn-primary">Un lien</a></div>
+                <div class="bouton">Je participe</div>
             </div>
         </div>
         <div class="card" style="width: 20rem;height:383px ">
@@ -79,7 +79,7 @@
             <div class="card-body">
                 <div class="prix">C'est gratuit !!!</div>
                 <div class="description"><p class="card-text">Du texte sous le titre dans le corps de carte bla blabla bla bla bla bla bla Du texte sous le titre dans le corps de carte bla blabla bla bla bla bla bla </p></div>
-                <div class="bouton"><a href="#" class="btn btn-primary">Un lien</a></div>
+                <div class="bouton">Je participe</div>
             </div>
         </div>
         <div class="card" style="width: 20rem;height:383px ">

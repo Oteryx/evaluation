@@ -27,6 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,37 +40,15 @@
       <workItem from="1607335643452" duration="704000" />
       <workItem from="1607336355471" duration="12481000" />
       <workItem from="1607418471745" duration="720000" />
-      <workItem from="1607419198557" duration="17665000" />
+      <workItem from="1607419198557" duration="17700000" />
+      <workItem from="1607500860511" duration="12098000" />
+      <workItem from="1607523962376" duration="145000" />
+      <workItem from="1607524164671" duration="696000" />
+      <workItem from="1607524880595" duration="806000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="987" y="343" key="#PHP" timestamp="1607335673306">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="987" y="343" key="#PHP/0.0.2560.1400/2560.0.1920.1040/-1920.0.1920.1040@0.0.2560.1400" timestamp="1607335673306" />
-    <state x="1108" y="423" key="NewPhpClassDialog" timestamp="1607335649961">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1108" y="423" key="NewPhpClassDialog/0.0.2560.1400/2560.0.1920.1040/-1920.0.1920.1040@0.0.2560.1400" timestamp="1607335649961" />
-    <state x="1114" y="623" key="NewPhpFileDialog" timestamp="1607335657784">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1114" y="623" key="NewPhpFileDialog/0.0.2560.1400/2560.0.1920.1040/-1920.0.1920.1040@0.0.2560.1400" timestamp="1607335657784" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1607336326221">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.2560.1400/2560.0.1920.1040/-1920.0.1920.1040@0.0.2560.1400" timestamp="1607336326221" />
-    <state x="987" y="256" width="585" height="888" key="find.popup" timestamp="1607432186006">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="987" y="256" width="585" height="888" key="find.popup/0.0.2560.1400/2560.0.1920.1040/-1920.0.1920.1040@0.0.2560.1400" timestamp="1607432186006" />
-    <state x="943" y="315" key="search.everywhere.popup" timestamp="1607336314845">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" key="search.everywhere.popup/0.0.2560.1400/2560.0.1920.1040/-1920.0.1920.1040@0.0.2560.1400" timestamp="1607336314845" />
   </component>
 </project>
