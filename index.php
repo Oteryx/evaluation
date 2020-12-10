@@ -5,6 +5,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.google.com/specimen/Space+Mono">
+    <?php
+    try
+    {
+        $bdd = new PDO('mysql:host=localhost;dbname=evaluation;charset=utf8','root','');
+        $reponse = $bdd->query('SELECT * FROM evaluation');
+    }
+    catch (Exception $e)
+    {
+        die('Erreur : ' . $e->getMessage());
+    }
+    ?>
 </header>
 <body style="background-color: #4d004d; !important;">
 <div class="fond">
