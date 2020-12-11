@@ -11,18 +11,20 @@ if (isset($_POST["submit"])) {
     $username = 'root';
     $password = '';
 
+    $prenomnom = $_POST["prenomnom"];
+    $mail = $_POST["mail"];
+    $telephone = $_POST["telephone"];
+    $groupe = $_POST["nbr_groupe"];
     try {
         $dbh = new PDO("mysql:host=$hostname;dbname=evaluation", $username, $password);
-
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // <== add this line
-        $sql = "INSERT INTO utilisateurs (prenomnom, mail, telephone)
-VALUES ('" . $_POST["prenomnom"] . "','" . $_POST["mail"] . "','" . $_POST["telephone"] . "')";
+        $sql = "INSERT INTO utilisateurs (prenomnom, mail, telephone, nbr_groupe)
+VALUES ('$prenomnom','$mail' ,'$telephone','$groupe')";
         if ($dbh->query($sql)) {
             echo "<script type= 'text/javascript'>alert('New Record Inserted Successfully');</script>";
         } else {
             echo "<script type= 'text/javascript'>alert('Data not successfully Inserted.');</script>";
         }
-
         $dbh = null;
     } catch (PDOException $e) {
         echo $e->getMessage();
@@ -79,7 +81,7 @@ VALUES ('" . $_POST["prenomnom"] . "','" . $_POST["mail"] . "','" . $_POST["tele
                 <div class="textinscription">
                     Je viens
                 </div>
-                <select class="menu" name="menu">
+                <select class="menu" id="nbr_groupe" name="nbr_groupe">
                     <option selected> Seul
                     <option> 1
                     <option> 2
@@ -87,13 +89,13 @@ VALUES ('" . $_POST["prenomnom"] . "','" . $_POST["mail"] . "','" . $_POST["tele
                     <option> 4
                 </select>
             </div>
+            <div class="textinscription">
+                Vous pourrez payer en ligne votre ou vos <br> inscriptions sur la page suivante
+            </div>
+            <div>
+                <input type="submit" name="submit" class="boutonform">Allez go, en avant !</input>
+            </div>
         </form>
-        <div class="textinscription">
-            Vous pourrez payer en ligne votre ou vos <br> inscriptions sur la page suivante
-        </div>
-        <div>
-            <input type="submit" name="submit" class="boutonform">Allez go, en avant !</input>
-        </div>
     </div>
 </div>
 </body>
