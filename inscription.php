@@ -18,8 +18,7 @@ if (isset($_POST["submit"])) {
     try {
         $dbh = new PDO("mysql:host=$hostname;dbname=evaluation", $username, $password);
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // <== add this line
-        $sql = "INSERT INTO utilisateurs (prenomnom, mail, telephone, nbr_groupe)
-VALUES ('$prenomnom','$mail' ,'$telephone','$groupe')";
+        $sql = "INSERT INTO utilisateurs VALUES (NULL, '".$prenomnom."','".$mail."','".$telephone."','".$groupe."')";
         if ($dbh->query($sql)) {
             echo "<script type= 'text/javascript'>alert('New Record Inserted Successfully');</script>";
         } else {
@@ -67,22 +66,22 @@ VALUES ('$prenomnom','$mail' ,'$telephone','$groupe')";
         </div>
     </div>
     <div class="formulaire">
-        <form action="/" method="post">
+        <form action="" method="post">
             <div>
-                <input class="ident" id="prenomnom" name="prenomnom" placeholder="Nom et prénom">
+                <input class="ident"  name="prenomnom" placeholder="Nom et prénom">
             </div>
             <div>
-                <input class="ident" id="mail" name="mail" placeholder="Email">
+                <input class="ident"  name="mail" placeholder="Email">
             </div>
             <div>
-                <input class="ident" id="telephone" name="telephone" placeholder="Téléphone">
+                <input class="ident"  name="telephone" placeholder="Téléphone">
             </div>
             <div class="selection">
                 <div class="textinscription">
                     Je viens
                 </div>
-                <select class="menu" id="nbr_groupe" name="nbr_groupe">
-                    <option selected> Seul
+                <select class="menu"  name="nbr_groupe">
+                    <option selected> 0
                     <option> 1
                     <option> 2
                     <option> 3
