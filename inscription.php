@@ -5,6 +5,30 @@
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.google.com/specimen/Space+Mono">
 </header>
+<?php
+if (isset($_POST["submit"])) {
+    $hostname = 'localhost';
+    $username = 'root';
+    $password = '';
+
+    try {
+        $dbh = new PDO("mysql:host=$hostname;dbname=evaluation", $username, $password);
+
+        $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // <== add this line
+        $sql = "INSERT INTO utilisateurs (prenomnom, mail, telephone)
+VALUES ('" . $_POST["prenomnom"] . "','" . $_POST["mail"] . "','" . $_POST["telephone"] . "')";
+        if ($dbh->query($sql)) {
+            echo "<script type= 'text/javascript'>alert('New Record Inserted Successfully');</script>";
+        } else {
+            echo "<script type= 'text/javascript'>alert('Data not successfully Inserted.');</script>";
+        }
+
+        $dbh = null;
+    } catch (PDOException $e) {
+        echo $e->getMessage();
+    }
+}
+?>
 <body style="background-color: #4d004d; !important;">
 <div class="fond">
     <div class="inscription">
@@ -43,13 +67,13 @@
     <div class="formulaire">
         <form action="/" method="post">
             <div>
-                <input class="ident" placeholder="Nom et prénom">
+                <input class="ident" id="prenomnom" name="prenomnom" placeholder="Nom et prénom">
             </div>
             <div>
-                <input class="ident" placeholder="Email">
+                <input class="ident" id="mail" name="mail" placeholder="Email">
             </div>
             <div>
-                <input class="ident" placeholder="Téléphone">
+                <input class="ident" id="telephone" name="telephone" placeholder="Téléphone">
             </div>
             <div class="selection">
                 <div class="textinscription">
@@ -68,7 +92,7 @@
             Vous pourrez payer en ligne votre ou vos <br> inscriptions sur la page suivante
         </div>
         <div>
-            <button class="boutonform">Allez go, en avant !</button>
+            <input type="submit" name="submit" class="boutonform">Allez go, en avant !</input>
         </div>
     </div>
 </div>
